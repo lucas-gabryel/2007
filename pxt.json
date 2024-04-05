@@ -1,0 +1,34 @@
+{
+    "name": "2007",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Module-World": "github:YahboomTechnology/Module-World#4bad43a8128f8529d911b0033e7062d7972a5cf4",
+        "tm1650": "github:YahboomTechnology/tm1650#d74a76c7400108f4658351d4a0e743fc776f3493",
+        "data-streamer": "github:microsoft/pxt-data-streamer#v0.1.3",
+        "servo": "*",
+        "radio-broadcast": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.15",
+        "tag": "v6.0.15",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/82f37ac905dec4a3e7d92353d97398abab77d1ba",
+        "target": "6.0.25",
+        "pxt": "9.0.11",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
